@@ -40,8 +40,11 @@ int main() {
 			double depositAmount;
 			cin >> depositAmount;
 			balance += depositAmount; break;
+		case 4:system("cls"); break;
+		default:system("cls");
+			break;
 		}
-	} while (option != 4);
+	} while (option != 5||option>=5);
 
 
 	system("pause>0");

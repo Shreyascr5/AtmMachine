@@ -33,6 +33,8 @@ int main() {
 			cin >> withdrawAmount;
 			if (withdrawAmount <= balance)
 				balance -= withdrawAmount;
+			else
+				cout << "Insufficient balance!" << endl;
 			break;
 		case 3:cout << "deposit" << endl;
 			double depositAmount;
